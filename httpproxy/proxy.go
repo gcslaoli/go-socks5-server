@@ -68,6 +68,6 @@ func StartProxy() {
 		}),
 	}
 
-	log.Printf("Starting proxy server on %s", server.Addr)
+	log.Printf("Starting http/https proxy server on %s", server.Addr)
 	log.Fatal(server.ListenAndServe())
 }
