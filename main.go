@@ -1,8 +1,14 @@
 package main
 
-import "github.com/armon/go-socks5"
+import (
+	"github.com/armon/go-socks5"
+	"github.com/gcslaoli/go-socks5-server/httpproxy"
+)
 
 func main() {
+	// start http proxy
+	go httpproxy.StartProxy()
+
 	conf := &socks5.Config{}
 	server, err := socks5.New(conf)
 	if err != nil {
