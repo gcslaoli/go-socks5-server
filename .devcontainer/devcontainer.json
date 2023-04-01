@@ -1,7 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers/features/go:1": {}
   },
   "postCreateCommand": "go run main.go"
 }
