@@ -2,5 +2,5 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-  "postCreateCommand": "go run main.go"
+  "postStartCommand": "go run main.go"
 }
