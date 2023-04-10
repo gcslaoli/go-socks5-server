@@ -2,5 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-  "postStartCommand": "go run main.go"
+  "postStartCommand": "go run main.go",
+  "forwordPorts": [1080,3128]
+  
 }
